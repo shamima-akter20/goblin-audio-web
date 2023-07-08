@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Great Vibes', cursive;
+/* font-family: 'Inspiration', cursive;
+font-family: 'Italianno', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Mr Dafoe', cursive;
+font-family: 'Ramabhadra', sans-serif;
+font-family: 'Roboto', sans-serif; */
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/gugululu.webp");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.navbar{
+    /* background-color: black; */
+    width: 100%;
+    margin: auto;
+    padding: 15px 15px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-family: sans-serif;
+    font-size: 5em;
+    padding: -1px 20px;
+    font-weight: bolder;
+    color: rgb(6, 6, 6);
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 15px;
+    font-size: 2em;
+    font-weight: bold;
+  
+}
+
+.navbar ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(4, 4, 4);
+    transition:all 0.4s; 
+
+}
+
+.navbar ul li a:hover{
+   background-color: black;
+   color: aliceblue;
+   border-radius: 5px;
+  
+   
+   
+}
+.left-col{
+    padding:10px 10px ;
+    background: rgba(17, 16, 16, 0.75); 
+    max-width: 130px;
+    max-height: 700px;
+    border-radius: 10px;
+    transition: 0.4s;
+  
+}
+
+.left-col:hover{
+ transform: scale(1.1);
+}
+
+
+.left-col h1{
+    color: rgb(252, 249, 249);
+    font-family: sans-serif;
+    font-size: 8em;
+}
+
+
+.right-col{
+     float: right;
+    margin-right: 10%;
+    margin-top: -20px;
+    width: 700px;
+    height: 150px;
+    background: rgba(17, 16, 16, 0.85); 
+    padding: 10px 60px;
+    border-radius: 15px; 
+}
+
+.right-col p{
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    color: bisque;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 30px 0px;
+   
+
+}
+#icon{
+   width: 80px;
+   cursor: pointer;
+   margin-left: 65%;
+   margin-top: -200px;
+}
+
