@@ -18,6 +18,7 @@ font-family: 'Roboto', sans-serif; */
     background-size: cover;
     background-position: center;
     position: relative;
+    background-repeat:no-repeat;
 }
 
 .navbar{
@@ -33,9 +34,13 @@ font-family: 'Roboto', sans-serif; */
 .logo{
     font-family: sans-serif;
     font-size: 5em;
-    padding: -1px 20px;
+    margin: 30px;
     font-weight: bolder;
     color: rgb(6, 6, 6);
+}
+
+.logo a{
+font-weight: bold;
 }
 
 .navbar ul li{
@@ -48,6 +53,8 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .navbar ul li a{
+    padding: 10px;
+    border-radius: 50%;
     font-weight: bold;
     text-decoration: none;
     color: rgb(4, 4, 4);
@@ -58,14 +65,21 @@ font-family: 'Roboto', sans-serif; */
 .navbar ul li a:hover{
    background-color: black;
    color: aliceblue;
-   border-radius: 5px;
-  
-   
-   
+   border-radius: 5px;  
 }
+
+.content{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 450px;
+}
+
+
 .left-col{
-    padding:10px 10px ;
-    background: rgba(17, 16, 16, 0.75); 
+   margin-top: 250px;
+   margin-left: 50px;
+    background: rgba(245, 201, 201, 0.75); 
     max-width: 130px;
     max-height: 700px;
     border-radius: 10px;
@@ -86,21 +100,22 @@ font-family: 'Roboto', sans-serif; */
 
 
 .right-col{
-     float: right;
-    margin-right: 10%;
-    margin-top: -20px;
-    width: 700px;
-    height: 150px;
-    background: rgba(17, 16, 16, 0.85); 
-    padding: 10px 60px;
-    border-radius: 15px; 
+    display: flex;
+    gap:20px;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     width: 500px;
+    background: rgba(255, 223, 223, 0.85); 
+    border-radius:20px; 
+    
 }
 
 .right-col p{
     font-family: sans-serif;
     justify-content: center;
     align-items: center;
-    color: bisque;
+    color: rgb(0, 0, 0);
     font-size: 2em;
     font-weight: bold;
     padding: 30px 0px;
@@ -108,9 +123,8 @@ font-family: 'Roboto', sans-serif; */
 
 }
 #icon{
-   width: 80px;
+   width: 60px;
    cursor: pointer;
-   margin-left: 65%;
-   margin-top: -200px;
+  
 }
 
